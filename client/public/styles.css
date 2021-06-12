@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+  background-color: #ffffff;
+  
+
+}
+
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 200px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  font-size: 20px;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 5%;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+/* 
+.login-page {
+  position: absolute;
+left: 50%;
+top: 50%;
+margin: 50em
+} */
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+.success {
+  padding: 20px;
+  background-color: #08e92e;
+  color: white;
+}
+
+
+
+.databox{
+  width: 100%;
+  margin: 20px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.block-display .boxbttn{
+  font-size: 20px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 5%;
+  margin: 30px auto;
+  width: 100px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+div ol{
+  margin-top: 10px;
+}
+
+div li {
+  margin-left: 20px;
+}
+
+
+ p{
+  font-family: arial;
+  font-weight: bold;
+}
+.block-display .button{
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  
+  border-radius: 5%;
+	width: 130px;
+	height: 60px;
+  color: white;
+  outline: none;
+  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+ .block-display button{
+  margin-bottom:5px;
+  text-align: center;
+  display: table;
+   margin: 100px auto 20px
+}
+
+ .button:hover{
+  background-color: #32CD32;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td{
+  height: 10px;
+  block-size: 40px;
+}
+tr:hover {background-color:#f5f5f5;}
+th {
+  background-color: #f5ba13;
+  color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.block-display .btn {
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  margin: 0px;
+  border-radius: 5%;
+	width: 130px;
+	height: 60px;
+  color: white;
+  outline: none;
+  display: block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #aced07;
+  text-decoration: none;
+}
+
+.inputclass{
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 5%;
+  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
